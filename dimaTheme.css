@@ -82,9 +82,9 @@ input.MYtextbox {
 }
 
 .disc-selector input:checked +.drinkcard-disc {
-  -webkit-filter: none;
-  -moz-filter: none;
-  filter: none;
+  -webkit-filter: brightness(0.8) grayscale(.5) opacity(.9);
+  -moz-filter: brightness(0.8) grayscale(.5) opacity(.9);
+  filter: brightness(0.8) grayscale(.5) opacity(.9);
 }
 
 .drinkcard-disc {
