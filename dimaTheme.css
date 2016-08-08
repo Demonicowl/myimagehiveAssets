@@ -3,7 +3,7 @@
   border: 1px solid #999;
   outline: 0;
   height: 25px;
-  width: 100px;
+  width: 70%;
   font-size: 18px;
 }
 
@@ -26,6 +26,9 @@ input.MYtextbox {
 
 .cd {
   background-image: url(https://raw.githubusercontent.com/Demonicowl/myimagehiveAssets/master/CD_v2.png);
+}
+.discAmountInput{
+  background-image: url(https://raw.githubusercontent.com/Demonicowl/myimagehiveAssets/master/input.png);
 }
 
 .dvd {
@@ -107,6 +110,12 @@ input.MYtextbox {
   -moz-filter: brightness(0.8) grayscale(.5) opacity(.9);
   filter: brightness(0.8) grayscale(.5) opacity(.9);
 }
+.drinkcard-disc.discAmountInput {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+}
+
 
 a:visited {
   color: #888
