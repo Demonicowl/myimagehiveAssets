@@ -244,10 +244,10 @@ body a {
 .price-value.two {
   background: var(--MYcolor2);
   border-bottom: 2px solid#fd6e70;
-  position: absolute;
+  /*position: absolute;
    bottom:0;
    width:100%;
-   height:60px;
+   height:60px;*/
 }
 
 .price-value.three {
