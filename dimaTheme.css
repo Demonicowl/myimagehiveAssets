@@ -181,9 +181,15 @@ body a {
 .pricing-grids {
   margin: 12% 0;
 }
-.pricing-grids.2 {
+.pricing-grids.two.dima {
   margin: 12% 0;
-  width:75%;
+  height:20px;
+  width:70%;
+  position: fixed;
+  left: 15%;
+  right:15%;
+  bottom: 20px;
+  
 }
 
 .pricing-grid1,
