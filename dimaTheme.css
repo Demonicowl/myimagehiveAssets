@@ -4,7 +4,7 @@
   outline: 0;
   height: 50px;
   width: 70%;
-  font-size: 35px;
+  font-size: 2em;
 }
 
 input.MYtextbox {
@@ -181,6 +181,10 @@ body a {
 .pricing-grids {
   margin: 12% 0;
 }
+.pricing-grids.2 {
+  margin: 12% 0;
+  width:75%;
+}
 
 .pricing-grid1,
 .pricing-grid2,
@@ -224,6 +228,17 @@ body a {
 .price-value h2 a {
   font-size: 1.8em;
   color: #fff;
+}
+
+.price-value.two.dima h2 a {
+  font-size: 3em;
+  color: #fff;
+}
+.price-value.two.dima input {
+  font-size: 2.5em;
+  height: 50px;
+  width: 70%;
+  text-align: center;
 }
 
 .price-value {
