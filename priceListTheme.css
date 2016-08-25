@@ -49,11 +49,11 @@ th:last-child {
   border-top-right-radius: 12px;
   border-right: none;
 }
-th.extras{
+
+th.extras {
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
 }
-
 
 tr {
   border-top: 1px solid #C1C3D1;
@@ -148,7 +148,14 @@ td.text-right {
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
-
+.textbox {
+  background: transparent;
+  border: 1px solid #999;
+  outline: 0;
+  height: 24px;
+  width: 70%;
+  font-size: 24px;
+}
 input.MYtextbox {
   border: transparent;
   background: transparent;
