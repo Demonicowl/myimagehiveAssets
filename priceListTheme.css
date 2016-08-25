@@ -23,8 +23,8 @@
 }
 
 th {
-  color: #D5DDE5;
-  ;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
   background: #4a8ec8;
   border-bottom: 4px solid #85b3da;
   border-right: 1px solid #85b3da;
@@ -126,12 +126,12 @@ td.text-right {
 }
 
 .titleFirst {
-  font-size: 1.7em;
+  font-size: 1.4em;
   font-family: 'Raleway', sans-serif;
 }
 
 .titleSecond {
-  font-size: 1em;
+  font-size: 0.8em;
   font-family: 'Raleway', sans-serif;
 }
 
