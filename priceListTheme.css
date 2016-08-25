@@ -42,11 +42,11 @@ th.extra {
 }
 
 th:first-child {
-  border-top-left-radius: 3px;
+  border-top-left-radius: 10px;
 }
 
 th:last-child {
-  border-top-right-radius: 3px;
+  border-top-right-radius: 10px;
   border-right: none;
 }
 
@@ -149,6 +149,7 @@ input.MYtextbox {
   width: 50%;
   font-size: 25px;
   font-family: 'Raleway Light', sans-serif;
+  font-color: #FFFFFF;
   /* the important bit */
 }
 .subtotal{
