@@ -110,6 +110,7 @@ $(document).on('keyup keypress change', function(e) {
         if (amountDiscs >= 1000) multiplier += 0.87;
     }
     priceTotal = Math.round((amountDiscs * multiplier) * 100) / 100;
-    $("#txt_price").val("$" + priceTotal)
+$("#txt_price").val('$' + parseFloat(priceTotal, 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,").toString());
+    //$("#txt_price").val("$" + priceTotal)
         //$('#item-price').html("$"+priceTotal);
 });
