@@ -15,7 +15,7 @@
   border-collapse: collapse;
   height: 320px;
   margin: auto;
-  max-width: 100%;
+  max-width: 80%;
   padding: 5px;
   width: 100%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -23,8 +23,8 @@
 }
 
 th {
-  color: #FFFFFF;
-  font-family: 'Raleway', sans-serif;
+  color: #D5DDE5;
+  ;
   background: #4a8ec8;
   border-bottom: 4px solid #85b3da;
   border-right: 1px solid #85b3da;
@@ -49,11 +49,11 @@ th:last-child {
   border-top-right-radius: 12px;
   border-right: none;
 }
-
-th.extras {
+th.extras{
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
 }
+
 
 tr {
   border-top: 1px solid #C1C3D1;
@@ -126,12 +126,12 @@ td.text-right {
 }
 
 .titleFirst {
-  font-size: 1.4em;
+  font-size: 1.7em;
   font-family: 'Raleway', sans-serif;
 }
 
 .titleSecond {
-  font-size: 0.8em;
+  font-size: 1em;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -148,14 +148,7 @@ td.text-right {
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
-.textbox {
-  background: transparent;
-  border: 1px solid #999;
-  outline: 0;
-  height: 24px;
-  width: 100%;
-  font-size: 24px;
-}
+
 input.MYtextbox {
   border: transparent;
   background: transparent;
@@ -168,4 +161,8 @@ input.MYtextbox {
 .subtotal {
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
+}
+
+.maintTitlePricelist{
+  color: #ffffff;
 }
