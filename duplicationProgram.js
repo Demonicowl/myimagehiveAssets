@@ -109,6 +109,6 @@ $(document).on('keyup keypress change', function(e) {
         if (amountDiscs >= 500 && amountDiscs <= 999) multiplier += 0.99;
         if (amountDiscs >= 1000) multiplier += 0.87;
     }
-    priceTotal = 0.75*Math.round((amountDiscs * multiplier) * 100) / 100;
+    priceTotal = 0.6*Math.round((amountDiscs * multiplier) * 100) / 100;
     $("#txt_price").val('$' + parseFloat(priceTotal, 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,").toString());
 });
