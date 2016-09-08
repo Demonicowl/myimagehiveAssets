@@ -476,10 +476,13 @@ body a {
 .subtitleDuplication{
   font-size: 1.1em;
   color: #ffffff;
+  letter-spacing: 0.1em;
+  font-family: 'Raleway', sans-serif;
 }
 .mainTitleduplication{
   font-size: 1.8em;
   color: #ffffff;
+  font-family: 'Raleway', sans-serif;
 }
 
 
