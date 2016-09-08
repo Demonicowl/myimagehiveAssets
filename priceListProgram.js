@@ -70,9 +70,9 @@ $(document).on('keyup keypress change', function(e) {
   thing21Price=0;
   thing22Price=0;
   
-  if(thing1>0) thing1Price=thing1*12.75;
+  if(thing1>0) thing1Price=thing1*13.99;
   if(thing2>0) thing2Price=thing2*4.75;
-  if(thing3>0) thing3Price=thing3*7.75;
+  if(thing3>0) thing3Price=thing3*9.75;
   if(thing4>0) thing4Price=thing4*2.99;
   if(thing5>0) thing5Price=thing5*9.99;
   if(thing6>0) thing6Price=thing6*3.99;
