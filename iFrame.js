@@ -1,7 +1,14 @@
 $("#txt_price").val("$0");
+
+var iframe = document.getElementById('dimaiFrame');
+var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+var input = innerDoc.getElementById('thing1');
+
+
 $(document).on('keyup keypress change', function(e) {
   priceValue = 0;
-  thing1 = $("#thing1").val();
+  thing1 = input.val();
+	Console.log(thing1);
   thing2 = $("#thing2").val();
   thing3 = $("#thing3").val();
   thing4 = $("#thing4").val();
