@@ -70,11 +70,11 @@ $(document).on('keyup keypress change', function(e) {
   thing21Price = 0;
   thing22Price = 0;
 
-  if (thing1 > 3){thing1Price = thing1 * 12.95;}
+  if (thing1 >= 3){thing1Price = thing1 * 12.95;}
   else if (thing1 > 0){thing1Price = thing1 * 27.99;}
-  if (thing2 > 3){thing1Price = thing2 * 7.95;}
+  if (thing2 >= 3){thing1Price = thing2 * 7.95;}
   else if (thing2 > 0){thing1Price = thing2 * 14.99;}
-  if (thing3 > 3){thing1Price = thing3 * 7.95;}
+  if (thing3 >= 3){thing1Price = thing3 * 7.95;}
   else if (thing3 > 0){thing1Price = thing3 * 16.99;}
   if (thing4 > 0) thing4Price = thing4 * 2.99;
   if (thing5 > 0) thing5Price = thing5 * 9.99;
