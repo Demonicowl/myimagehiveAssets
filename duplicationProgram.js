@@ -113,7 +113,8 @@ $(document).on('keyup keypress change', function(e) {
   if ($('#jewelCase').is(':checked')) multiplier += 0.36;
   if ($('#slimJewelCase').is(':checked')) multiplier += 0.29;
   if ($('#plasticSquareCase').is(':checked')) multiplier += 0.26;
-  
   priceTotal = priceTotal+Math.round((amountDiscs * multiplier) * 100) / 100;
+    //special for October
+  if((setterDisc==1 || setterDisc==0)&&(setterColor==1)&&($('#wPaperSleeveCase').is(':checked'))&&(amountDiscs==100)) priceTotal=55;
   $("#txt_price").val('$' + parseFloat(priceTotal, 10).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,").toString());
 });
